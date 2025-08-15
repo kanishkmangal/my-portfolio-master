@@ -1,0 +1,19 @@
+<section id="hero" class="hero">
+  @if(info){
+  <div class="hero-content">
+    <h1 class="mb-4">
+      Hi, I'm <span class="highlight">{{ info.name }}</span>
+    </h1>
+    <p class="mb-4">
+      {{ info.shortInfo }}
+    </p>
+    <a href="#projects" class="btn-primary">View My Work</a>
+  </div>
+  }
+</section>
+<div class="flex justify-center flex-col px-24">
+  <app-about-me></app-about-me>
+  <app-skills> </app-skills>
+  <app-projects />
+  <app-contact-me class="mb-4" />
+</div>

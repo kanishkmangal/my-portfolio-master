@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-color: #4caf50;
+$secondary-color: #333;
+$background-color: #f4f4f4;
+$text-color: #555;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.header {
+  background: $primary-color;
+  color: #fff;
+  padding: 1rem 2rem;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin: 0 1rem;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: $secondary-color;
+  color: #fff;
+
+  .btn-primary {
+    background: $primary-color;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+  padding: 1rem 2rem;
+
+  h2 {
+    margin-bottom: 1.5rem;
+    color: $secondary-color;
+  }
+
+  .skill-list,
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .skill,
+    .project {
+      flex: 1 1 calc(33.333% - 1rem);
+      background: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: $secondary-color;
+  color: #fff;
+}

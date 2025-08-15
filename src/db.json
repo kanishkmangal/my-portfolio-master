@@ -1,0 +1,78 @@
+{
+  "about": {
+    "name": "Ved Prkash",
+    "shortInfo": "A passionate Software Engineer building impactful solutions.",
+    "longInfo": "I am a dedicated and detail-oriented software engineer with 10 of experience in designing, developing, and deploying robust software solutions. Proficient in a wide range of technologies, including [list a few key skills like JavaScript, Python, and React], I specialize in creating scalable, user-friendly applications that solve real-world problems. My passion lies in continuously learning and staying at the forefront of emerging technologies, allowing me to bring innovative ideas to every project. I thrive in collaborative environments and enjoy tackling complex challenges to deliver high-quality results. In my spare time, I contribute to open-source projects and enhance my skills through personal development initiatives."
+  },
+  "skills": [
+    {
+      "name": "Angular",
+      "exp": 10
+    },
+    {
+      "name": "React",
+      "exp": 5
+    },
+    {
+      "name": "NodeJS",
+      "exp": 5
+    },
+    {
+      "name": "DotNet",
+      "exp": 10
+    },
+    {
+      "name": "HTML/CSS",
+      "exp": 10
+    },
+    {
+      "name": "SQL",
+      "exp": 8
+    }
+  ],
+  "projects": [
+    {
+      "name": "ECommerce App",
+      "detail": "This is a short description of the product. Highlight its features and benefits to attract customers.",
+      "url": "xyz.com",
+      "tech": [
+        "Angular",
+        "NodeJS"
+      ]
+    },
+    {
+      "name": "Inventory App",
+      "detail": "This is a short description of the product. Highlight its features and benefits to attract customers.",
+      "url": "xyz.com",
+      "tech": [
+        "Angular",
+        "DotNet",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Portfolio App",
+      "detail": "This is a short description of the product. Highlight its features and benefits to attract customers.",
+      "url": "xyz.com",
+      "tech": [
+        "React",
+        "NodeJS",
+        "MONGO DB"
+      ]
+    }
+  ],
+  "contactme": [
+    {
+      "id": "552c",
+      "name": "Ved",
+      "email": "ved@codewithved.com",
+      "message": "Hi"
+    },
+    {
+      "id": "126f",
+      "name": "Ved",
+      "email": "ved@codewithved.com",
+      "message": "hi"
+    }
+  ]
+}
