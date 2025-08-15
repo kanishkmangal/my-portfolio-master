@@ -14,21 +14,21 @@ export class ProjectsComponent {
     {
       name: 'Lpu Survey Form',
       detail: 'A web survey form for facilities.',
-      image: 'C:/Users/kanishk/Downloads/my-portfolio-master/assets/images/Surveyform.png',
+      // image: 'assets/images/Surveyform.png',
       tech: ['HTML',  'CSS'],
       url: ' https://kanishkmangal.github.io/LPU-Survey-Form/'
     },
     {
       name: 'Registration Form',
       detail: 'A simple registration form',
-      image: 'assets/images/disk.png',
+      // image: 'assets/images/registration.png',
       tech: ['HTML', 'CSS'],
       url: ' https://kanishkmangal.github.io/registration-form/'
     },
     {
       name: 'Portfolio Website',
       detail: 'My personal portfolio to showcase projects and skills.',
-      image: 'assets/images/portfolio.png',
+      // image: 'assets/images/portfolio.png',
       tech: ['HTML', 'CSS', 'JavaScript'],
       url: 'https://kanishkmangal.github.io/Portfolio/'
     }
