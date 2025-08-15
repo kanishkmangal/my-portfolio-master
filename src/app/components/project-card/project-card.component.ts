@@ -9,4 +9,9 @@ import { Product } from '../../model/product';
 })
 export class ProjectCardComponent {
 @Input() product! :Product;
+openDemo() {
+    if (this.product.url) {
+      window.open(this.product.url, '_blank');
+    }
+  }
 }

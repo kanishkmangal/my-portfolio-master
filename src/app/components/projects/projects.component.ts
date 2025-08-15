@@ -14,23 +14,23 @@ export class ProjectsComponent {
     {
       name: 'Lpu Survey Form',
       detail: 'A web survey form for facilities.',
-      image: 'assets/images/Surveyform.png',
-      tech: ['Angular', 'Next.js', 'Node.js'],
-      url: 'https://github.com/yourusername/library-seat-booking'
+      image: 'C:/Users/kanishk/Downloads/my-portfolio-master/assets/images/Surveyform.png',
+      tech: ['HTML',  'CSS'],
+      url: ' https://kanishkmangal.github.io/LPU-Survey-Form/'
     },
     {
-      name: 'Disk Scheduling Visualizer',
-      detail: 'A tool to visualize and compare disk scheduling algorithms.',
+      name: 'Registration Form',
+      detail: 'A simple registration form',
       image: 'assets/images/disk.png',
-      tech: ['Angular', 'JavaScript'],
-      url: 'https://github.com/yourusername/disk-scheduling'
+      tech: ['HTML', 'CSS'],
+      url: ' https://kanishkmangal.github.io/registration-form/'
     },
     {
       name: 'Portfolio Website',
       detail: 'My personal portfolio to showcase projects and skills.',
       image: 'assets/images/portfolio.png',
-      tech: ['Angular', 'Tailwind CSS'],
-      url: 'https://yourusername.github.io/portfolio'
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      url: 'https://kanishkmangal.github.io/Portfolio/'
     }
   ];
   httpService = inject(HttpService);
